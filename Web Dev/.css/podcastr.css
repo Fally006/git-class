@@ -1,0 +1,57 @@
+body {
+    font-family: Poppins;
+}
+
+.heading {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-column-gap: 600px;
+    margin-right: 80px;
+    margin-left: 15px;
+}
+
+li {
+    list-style-type: disc;
+    display: inline;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 12px 14px;
+    background-color: black;
+    color: white;
+}
+
+.main {
+    background-color: rgb(73, 70, 70);
+    height: auto;
+    width: auto;
+    position: absolute;
+}
+
+h1 {
+    margin-left: 300px;
+    margin-right: 300;
+    line-height: 100px;
+    font-size: 100px;
+    margin-top: 75px;
+    margin-bottom: auto;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main button {
+    position: absolute;
+}
+
+.foot {
+    margin-bottom: 10px;
+}
